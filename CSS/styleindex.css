@@ -1,0 +1,92 @@
+body,html{
+    margin: 0;
+    overflow-x: hidden;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+.header img{
+    width: 100px;
+}
+.header ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+}
+.header ul li{
+    margin-right: 40px;
+}
+.header ul li a{
+    text-decoration: none;
+    color:cadetblue;
+}
+.menu{
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+}
+.search{
+    align-content: center;
+}
+.search button{
+    background-color: black;
+    color: white;
+}
+.content{
+    display: flex;
+    justify-content: space-between;
+}
+.right-side > div{
+    display: flex;
+    align-items: center;
+}
+.right-side img{
+    padding: 10px;
+    width: 183px;
+}
+#bann img{
+    width: 1000px;
+    padding-right: 30px;
+}
+.right-side{
+    display: flex;
+    flex-direction: column;
+    align-content: start;
+}
+.right-side h1{
+    margin: 0;
+    color: cadetblue;
+}
+.nfo-bking{
+    display: flex;
+    justify-content: space-between;
+}
+.booking{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: grey;
+}
+.feedback{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.feedback > div{
+    width: 300px;
+}
+.feedback > div >img{
+    border-radius: 50%;
+}
+.foot{
+    background-color: cadetblue;
+    color: aliceblue;
+
+    height: 250px;
+}
+.act-foot{
+    display: flex;
+    justify-content: space-around;
+    
+}
